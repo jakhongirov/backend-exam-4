@@ -12,6 +12,7 @@ module.exports = {
         }
     },
 
+    
     Mutation: {
         newbank: async (_, { name, percent, money, img, service, years }) => {
 
